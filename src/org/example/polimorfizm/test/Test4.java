@@ -11,13 +11,13 @@ public class Test4 {
         Cat4 cat4 = new Cat4();
 
         //полиморфизм позволяет передавать в метод test4(Animal animal) разные типы
-        //вызов метода test4(Animal animal) на объекто класса class Animal
+        //вызов метода test4(Animal animal) на объекте класса class Animal
         test4(animal);
-        //вызов метода test4(Animal animal) на объекто класса class Dog4
+        //вызов метода test4(Animal animal) на объекте класса class Dog4
         //у объекта класса class Dog4 выводится переопределенный метод eat() из класса class Dog4
         //т.к. в классе class Dog4 есть свой метод eat()
         test4(dog4);
-        //вызов метода test4(Animal animal) на объекто класса class Cat4
+        //вызов метода test4(Animal animal) на объекте класса class Cat4
         //у объекта класса class Cat4 выводится родительский метод eat() из класса class Animal
         //т.к. в классе class Cat4 нет своего метода eat()
         test4(cat4);
